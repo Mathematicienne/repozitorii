@@ -9,3 +9,4 @@ def equation(n):
     else:
         return ("Одинаковое количество скобок. ")
 print(equation(n))
+
