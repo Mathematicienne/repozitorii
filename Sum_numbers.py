@@ -6,4 +6,3 @@ def sum_numbers(n):
     return a
 print(sum_numbers(n))
 
-
