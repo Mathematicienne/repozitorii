@@ -5,3 +5,4 @@ def sum_numbers(n):
         a += int(i)
     return a
 print(sum_numbers(n))
+
