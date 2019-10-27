@@ -11,7 +11,7 @@ for i in arithmetic_signs:
     if ii != -1:
         x = i
         A = float(stroka[: ii])
-        if i == ('//' or '**'):
+        if (i == '//') or (i == '**'):
             B = float(stroka[ii + 2:])
         else:
             B = float(stroka[ii + 1:])
