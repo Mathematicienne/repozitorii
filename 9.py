@@ -1,5 +1,7 @@
-# Сортировка пузырьком
-lst = input().split(' ')
+#Сортировка пузырьком
+lst = []
+for i in input().split(' '):
+    lst.append(int(i))
 n = 1
 for i in range(len(lst) + 1):
     for j in range(len(lst) - n):
